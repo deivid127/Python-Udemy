@@ -1,3 +1,4 @@
+import os
 # Criando arquivos com Python + Context Manager with
 # Usamos a função open para abrir
 # um arquivo em Python (ele pode ou não existir)
@@ -56,3 +57,5 @@ with open(caminho_arquivo, 'w', encoding='utf8') as arquivo:
     arquivo.writelines(
         ('Linha 2\n', 'Linha 3\n')
     )
+
+# os.remove(caminho_arquivo)
